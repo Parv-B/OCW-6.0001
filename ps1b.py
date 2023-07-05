@@ -4,7 +4,7 @@ import math
 annual_salary = int(input("Enter your annual salary: "))
 portion_saved = float(input("Enter the percent of your salary to save, as a decimal: "))
 total_cost = int(input("Enter the cost of your dream home: "))
-semi_annual_raise = float(input("Enter your semi-annual raise: "))
+semi_annual_raise = float(input("Enter your semi-annual raise, as a decimal: "))
 
 #initialize state vars
 portion_down_payment = 0.25*total_cost
